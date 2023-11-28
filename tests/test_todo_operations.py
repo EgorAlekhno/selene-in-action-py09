@@ -3,4 +3,4 @@ from selene import browser
 
 def test_complete_todo():
     ...
-    browser.config.driver_name
+    browser.open('https://todomvc.com/examples/emberjs/')
